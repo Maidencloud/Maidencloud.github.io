@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+   
+	<head>
+       
+<title>"Final Fantasy VII (7) Pal 60 hz avec Action replay"</title>
+<meta name="description" content="cette page vous donne la possibilité de pouvoir jouer à Final Fantasy VII (7) et en 60 hertz (hz) grâce à l'Action replay et quelques codes. Jouez enfin au jeux Europeen (pal) avec le rendu des version us ou japonaise sur votre Playstation 1 (psx, psone, ps1) en pleine ecran, sans bande noire."/>
+
+<meta name="keywords" content="FF7, final fantasy 7, VII, 60 hz, 60 hertz, code action replay, pal2ntsc, pleine ecran, sans bande noire."/>
+
+<meta name="reply-to" content="cloudseb@hotmail.com"/>
+<meta name="author" content="Maidencloud"/>
+<meta http-equiv="content-language" content="French"/>
+<meta http-equiv="vw96.object type" content="Document"/>
+<meta name="date-creation-ddmmyyyy" content="31032005"/>
+<meta name="robots" content="index,follow "/>
+<meta name="revisit-after" content="15 days"/>
+<meta name="robots" content="all"/>
+
+
+       <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	
+	
+<link rel="stylesheet" media="screen" type="text/css" title="Final Fantasy" 	href="mise_en_page/menuff.css" />	
+
+   </head>
+
+
+<body>
+
+	<div id="en_tete">
+   <!-- Ici on mettra la bannière -->
+
+	</div>
+
+	
+        <div id="menu">
+	
+	
+	  <div class="element_menu"> <!-- Cadre correspondant à un sous-menu -->
+     
+   	    <h3>Menu</h3> <!-- Titre du sous-menu -->
+
+       	       <ul>           <li><a href="indexff.html">Accueil</a></li>
+                       <li><a href="FF7.html"> final Fantasy VII - 7 - </a></li>
+           		<li><a href="FF8.html"> final Fantasy VIII - 8 -</a></li>	
+ 			<li><a href="FF9.html"> final fantasy IX - 9 -</a></li>
+			<li><a href="swapping.html"> swapping </a></li>      	           
+			<li><a href="liens.html"> liens</a></li>
+</ul>
+
+	   </div>
+
+        </div>   
+
+
+
+      <div id="corpsacceuil">
+<div id="surcorps">
+
+
+	<h1>Comment trouver un code y-fix</h1>
+
+<p>
+L'inconvéniant du code 60 hz c'est qu'il décale fortement l'image sur l'axe verticale (décalage vers le haut), il faut donc un code que l'on appelle y-fix, pour recentrer plus ou moins l'image.
+Tout comme le code 60 hz il vous faudra utilise le programme ps2dis. Je vais vous montrer comment j'ai procédé pour final fantasy 7.<br/>
+</p>
+ 
+ <h3> Premiere chose à faire :</h3>
+
+<p>
+- Faire apparraître les fichiers caché <br/>
+<br/>
+- Dans explorer cliquer en haut, sur <red> outils </red> puis sur <red>options des dossier</red> puis sur l'onglet <red>affichage</red> dans la fenêtre, descendre jusqu'a atteindre <red> Fichier et dossiers cachés</red> juste en dessous cliquer sur <red>Afficher les fichiers et dossier cachés</red> <br/>
+- Faites ensuite <red> OK </red>
+</p>
+
+<h3>Deuxieme chose à faire : </h3>
+
+<p>
+- Insérez le cd du jeu dans l'un de vos lecteurs CD/DVD <br/>
+</p>
+
+<h3>Troisieme chose à faire </h3>
+
+<p>
+- Téléchargez le programme <a href="logiciel/packps2dis.rar" title="programme hexadecimal de recherche de code ps1 et ps2"> ps2dis </a> <br/>
+<br/>
+C'est bon vous êtes prêt <br/>
+
+</p>
+
+<h3> Comment utiliser ps2dis pour rechercher le code y-fix </h3>
+
+<p>
+<jaune> Il a 2 type de y-fix, il y a donc deux code pour les trouver. Dans certain jeux c'est le type 1 dans d'autre cas le type 2.
+
+Dans le cas de final fantasy 7 c'est le type 2 que nous allons utiliser. </jaune>
+</p>
+
+
+
+<p>
+- Apres avoir télécharger ps2dis dézipper le <br/> 
+- Ouvrez le dossier dans lequel vous avez dézippé ps2dis
+- Puis Démarrer le programme <br/>
+- faire glisser les deux fichier CMPLabelXxX.pis CMPLabelXxX2.pis dans la fenêtre ouverte de ps2dis <br/>
+- Dans le programme, cliquez dans <red>file</red> puis <red>open</red> un explorateur s'ouvre. cliquer sur <red>le lecteur ou vous avez inséré le jeux (ex : D) </red>. A la racine du cd se trouve un fichier nommé généralement SCES_xxx.xx ou SLES_xxx.xx ou autres (SCUS, SLUS etant si je ne me trompe pas, les version americaine des fichiers, pour console americaine) <br/>
+- Double cliquez dessus <br/>
+Vous voilà revenus dans la fenêtre principale de ps2dis <br/>
+- Cliquez sur <red>edit</red>, puis <red>find pattern</red>, puis cliquez sur <red>as hex string </red> puis entrez le code pattern suivant <jaune> 13 00 91 24 10 00 91 24 </jaune> <br/>
+- Le programme devrait trouver quelque chose qui ressemble à dans le cas de Final fantasy 7 a ce qui suit :
+</p>
+<h3>CODE Y-fix TYPE 2 </h3>
+<p>
+<jaune>
+000444d4 24910013 addiu  s1, a0, $0013 <br/>
+000444d8 24910010 addiu  s1, a0, $0010 <-- y-fix <br/>
+(rappel du code pattern entrée plus haut) <br/>
+<br/>
+Code pattern = 13 00 91 24 10 00 91 24 </jaune> <br/>
+<br/>
+- On remplace le premier chiffre de 000444d8 par un 8  et on garde lors de l'utilisation du code dans l'action replay 0000<br/>
+<br/>
+Ce qui nous donne <jaune> 800444d8-0000</jaune><br/>
+<br/>
+Il ne vous restes plus qu'à l'entrée dans l'action replay de votre choix.<br/>
+<br/>
+
+</p>
+<h3>CODE y-fix TYPE 1</h3>
+<p>
+<jaune>
+24900013 addiu s0, a0, $0013 <br/>
+24900010 addiu s0, a0, $0010 <-- code y-fix <br/>
+8622000e lh v0, $000e(s1)<br/>
+<br/>
+Code Pattern = 13 00 90 24 10 00 90 24
+</jaune><br/>
+<br/>
+Le principe est le même, il faut juste remlacer le code pattern inscrit dans l'exemple pour final fantasy 7 plus haut<br/>
+<br/>
+Sur d'autre jeux que celui de mon exemple, le but et de chercher quel type de y-fix et present dans le code. Il faut donc chercher avec les deux code pattern . Si en essayant le premier vous ne trouver pas les formes de code ecrit en jaune. Alors il y a de forte chances que cela soit le second type. <br/>
+<br/>
+Si malgré ça, ça ne fontionne pas, c'est que le jeu à peut être une protection "anti codes action replay" ou alors que votre action replay n'est pas assez recent (ce qui rejoint finalement l'hypothese de la protecion), soit le code pattern pour trouver le code y-fix n'est pas compatible avec ce jeu (hypothese), soit vous vous êtes trompé, soit j'en sais rien. <br/>
+<br/>
+Bonne recherche
+<br/>
+<a href="trouver60hz.html">- Comment trouver code 60 hz </a>
+</p>
+
+
+</div>
+        </div>
+	
+	
+<div id="pied_de_page"> 
+         <p>Le site sur les codes action replay pour les final fantasy - Maître du Site : MaidenCloud</p> 
+	 
+<script type="text/javascript" src="script/email.js"></script>
+<br/>
+<a href="http://www.w3qc.org/validateur/index.php?uri=referer">Validation</a>
+</div>
+
+
+</body>
+
+</html>
