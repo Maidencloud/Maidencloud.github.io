@@ -1,0 +1,118 @@
+
+
+
+
+body
+{
+color: black;
+background-color: maroon;
+background: url("../fonds/b58.jpg") fixed;
+	width: 760px;
+        
+       
+   	margin: auto; /* Pour centrer notre page */
+}
+
+
+p
+{
+padding: 10px;
+}
+
+h1, h3
+{
+color: navy;
+}
+
+a
+{
+background-color: black;
+background: url("../fonds/parchemin.jpg") ;
+color: red;
+}
+
+
+
+
+#en_tete
+{
+	width: 760px;
+   	height: 100px;
+  	background-image: url("../fonds/banniere 2.jpg");
+   	background-repeat: no-repeat;
+   	margin-bottom: 10px;
+        margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+#menu
+{
+
+   float: left;/* Le menu flottera à gauche */
+   width: 120px; /* Très important : donner une taille au menu */
+   
+
+}
+
+
+
+
+
+
+.element_menu
+{
+   
+   background-image: url("../fonds/parchemin.jpg");
+  
+   
+   border: 2px solid black;
+   
+   margin-bottom: 20px; /* Pour éviter que les éléments du menu ne soient trop collés */
+
+   
+}
+
+
+#corps
+{
+   
+
+margin-left: 140px; /* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+   margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+   padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+   
+   
+   
+   background-image: url("../fonds/parchemin.jpg");
+   
+   border: 2px solid black; /* Une bordure pour bien marquer les limites du corps et pour faire joli */
+}
+
+.image
+{
+float: right;
+}
+
+
+
+#pied_de_page
+{
+   padding: 5px;
+
+   text-align: center;
+
+   margin-left: 140px;
+  
+   background-image: url("../fonds/parchemin.jpg");
+  
+  
+   border: 2px solid black;
+}
+
+
