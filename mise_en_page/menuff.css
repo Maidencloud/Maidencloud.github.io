@@ -12,9 +12,13 @@ color: orange;
 
 body
 {
+
 color: black;
 background-color: black;
 Background: url(../fonds/tifares1024.jpg) fixed;
+background-size: contain;
+background-position: center;
+
 
 /*width: 760px;*/
 
@@ -25,7 +29,7 @@ height: 100%;
 
 red
 {
-/*mot important surligné en rouge*/
+/*mot important surlignÃ© en rouge*/
 color: red;
 font-weight: bold;
 }
@@ -34,7 +38,7 @@ font-weight: bold;
 
 jaune
 {
-/* Phrase importante surligné */
+/* Phrase importante surlignÃ© */
 color: yellow;
 font-weight: bold;
 }
@@ -48,18 +52,21 @@ padding: 10px;
 }
 
 
-
 h1, h3, h2
 {
 /*color: navy;*/
 color: #9966FF;
+
 }
+
+
 
 a
 {
 /*color: red;*/
 /*color: #CC3300;*/
 color: yellow;
+font-size: x-large;
 }
 
 img
@@ -100,8 +107,8 @@ margin-left: 10%;
 {
 text-transform : capitalize;
 margin-left: 2px;
-float: left;/* Le menu flottera à gauche */
-width: 140px; /* Très important : donner une taille au menu */
+float: left;/* Le menu flottera Ã  gauche */
+width: 140px; /* TrÃ¨s important : donner une taille au menu */
 /*Background-image: url("../fonds/tifares.jpg");*/
 margin-bottom: 10px;
 color: yellow;
@@ -120,7 +127,7 @@ color: yellow;
     
    /*border: 2px solid black;*/
    
-    /* Pour éviter que les éléments du menu ne soient trop collés */
+    /* Pour Ã©viter que les Ã©lÃ©ments du menu ne soient trop collÃ©s */
 
 }
 
@@ -129,13 +136,16 @@ color: yellow;
 #corpsff7
 {
 background: url("../fonds/ff7_492.jpg") fixed;
-background-position: right;
+background-position: center;
+/*background-size: 1000px;*/
+background-size: cover;
+
 
 
 height: auto;
-margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
-margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
-padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+margin-left: 155px;/* Une marge Ã  gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour Ã©viter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour Ã©viter que le texte Ã  l'intÃ©rieur du corps ne colle trop Ã  la bordure */
 	
 
 }
@@ -143,35 +153,40 @@ padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à
 #corpsff8
 {
 background: url("../fonds/squallblade.jpg") fixed;
-background-position: right;
+background-position: center;
+background-size: cover;
 
 height: auto;
-margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
-margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
-padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+margin-left: 155px;/* Une marge Ã  gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour Ã©viter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour Ã©viter que le texte Ã  l'intÃ©rieur du corps ne colle trop Ã  la bordure */
 
 }
 
 #corpsff9
 {
 background: url("../fonds/bahamut.jpg") fixed;
-background-position: right;
+background-position: center top;
+background-size: cover;
+
 
 height: auto;
-margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
-margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
-padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+margin-left: 155px;/* Une marge Ã  gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour Ã©viter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour Ã©viter que le texte Ã  l'intÃ©rieur du corps ne colle trop Ã  la bordure */
 }
 
 
 #corps
 {
 background: url("../fonds/highwind.jpg") fixed;
-background-position: right;
+background-position: center;
+background-size: cover;
+
 height: auto;
-margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
-margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
-padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+margin-left: 155px;/* Une marge Ã  gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour Ã©viter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour Ã©viter que le texte Ã  l'intÃ©rieur du corps ne colle trop Ã  la bordure */
 
 
 }
@@ -179,11 +194,14 @@ padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à
 #corpsacceuil
 {
 background: url("../fonds/cloudwall2.jpg") fixed;
-background-position: right;
+/*background-position: right;*/
+background-position: center;
+background-size: cover;
+
 height: auto;
-margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
-margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
-padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+margin-left: 155px;/* Une marge Ã  gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour Ã©viter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour Ã©viter que le texte Ã  l'intÃ©rieur du corps ne colle trop Ã  la bordure */
 }
 
 
