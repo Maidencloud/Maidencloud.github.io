@@ -17,5 +17,5 @@
       link+=(StrCodage.charAt(StrLettre))
     }
   }
-  document.write("<a href='mailto:"+link+"'>Contacter Le Maître</a>")
+  document.write("<a href='mailto:"+link+"'>Contacter Le MaÃ®tre</a>")
 }
