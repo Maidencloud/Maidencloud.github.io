@@ -1,0 +1,70 @@
+html
+{
+/*color: black;*/
+}
+
+
+
+
+body
+{
+
+color: black;
+background-color: black;
+Background: url(../fonds/Photos-0001.jpg) fixed black;
+background-position:center center;
+background-repeat: no-repeat;
+
+
+/*width: 760px;*/
+
+/*margin: auto; /* Pour centrer notre page*/
+/*height: 100%;*/
+}
+
+
+red
+{
+/*mot important surligné en rouge*/
+color: red;
+font-weight: bold;
+}
+
+
+
+jaune
+{
+/* Phrase importante surligné */
+color: yellow;
+font-weight: bold;
+}
+
+
+p
+{
+color: #CCCCCC; /*gris clair*/
+font-size: 20px;
+padding: 10px;
+}
+
+
+
+h1, h3, h2
+{
+/*color: navy;*/
+/*color: #9966FF;*/
+color: yellow;
+}
+
+a
+{
+/*color: red;*/
+/*color: #CC3300;*/
+color: yellow;
+}
+
+img
+{
+border: none;
+
+}

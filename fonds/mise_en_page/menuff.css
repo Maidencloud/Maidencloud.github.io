@@ -1,0 +1,246 @@
+html
+{
+color: black;
+}
+
+
+
+acronym
+{
+color: orange;
+}
+
+body
+{
+
+color: black;
+background-color: black;
+Background: url(../fonds/tifares1024.jpg) fixed;
+background-size: contain;
+background-position: center;
+
+
+/*width: 760px;*/
+
+margin: auto; /* Pour centrer notre page */
+height: 100%;
+}
+
+
+
+red
+{
+/*mot important surligné en rouge*/
+color: red;
+font-weight: bold;
+}
+
+
+
+jaune
+{
+/* Phrase importante surligné */
+color: yellow;
+font-weight: bold;
+}
+
+orange
+{
+color: orange;
+
+}
+
+
+p
+{
+color: #CCCCCC; /*gris clair*/
+font-size: 20px;
+padding: 10px;
+color: white;
+text-shadow: black 0em 0em 0.2em, 0em 0em 0.2em ;
+text-shadow: 2px 2px 2px black;
+}
+
+
+h1, h3, h2
+{
+/*color: navy;*/
+color: #9966FF;
+text-shadow: black 0em 0em 0.2em, 0em 0em 0.2em ;
+text-shadow: 2px 2px 2px black;
+}
+
+
+
+a
+{
+/*color: red;*/
+/*color: #CC3300;*/
+color: yellow;
+font-size: x-large;
+}
+
+img
+{
+border: none;
+
+}
+
+
+#en_tete
+a { 
+display: block; 
+
+background-image: url("../fonds/FinalPs1.png");
+/*background: url("../fonds/cloudwall2.jpg") fixed;*/
+/*background-position: right;*/
+
+margin-left: 155px;
+   	height: 100%;
+  	/*background-image: url("../fonds/FinalPs1.png");*/
+   	background-repeat: no-repeat;
+   	margin-bottom: 5px;
+        /*margin-top: 10px;*/
+	/*margin-left: 142px;*/
+}
+
+.finalps1
+{
+margin-left: 10%;
+}
+
+
+
+
+
+
+#menu
+{
+text-transform : capitalize;
+margin-left: 2px;
+float: left;/* Le menu flottera à gauche */
+width: 140px; /* Très important : donner une taille au menu */
+/*Background-image: url("../fonds/tifares.jpg");*/
+margin-bottom: 10px;
+color: yellow;
+
+}
+
+
+
+
+
+
+.element_menu
+{
+   
+  padding: 5px;
+    
+   /*border: 2px solid black;*/
+   
+    /* Pour éviter que les éléments du menu ne soient trop collés */
+
+}
+
+
+
+#corpsff7
+{
+background: url("../fonds/ff7_492.jpg") fixed;
+background-position: center;
+/*background-size: 1000px;*/
+background-size: cover;
+
+
+
+height: auto;
+margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+	
+
+}
+
+#corpsff8
+{
+background: url("../fonds/squallblade.jpg") fixed;
+background-position: center;
+background-size: cover;
+
+height: auto;
+margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+
+}
+
+#corpsff9
+{
+background: url("../fonds/bahamut.jpg") fixed;
+background-position: center top;
+background-size: cover;
+
+
+height: auto;
+margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+}
+
+
+#corps
+{
+background: url("../fonds/highwind.jpg") fixed;
+background-position: center;
+background-size: cover;
+
+height: auto;
+margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+
+
+}
+
+#corpsacceuil
+{
+background: url("../fonds/cloudwall2.jpg") fixed;
+/*background-position: right;*/
+background-position: center;
+background-size: cover;
+
+height: auto;
+margin-left: 155px;/* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+}
+
+
+#surcorps
+	{
+	
+/*border: 2px solid black;*/ /* Une bordure pour bien marquer les limites du corps et pour faire joli */
+
+}
+
+
+.image
+{
+float: right;
+}
+
+
+
+#pied_de_page
+{
+   padding: 5px;
+
+   text-align: center;
+
+   /*margin-left: 155px;*/
+   /*height: 50 px;*/
+   /*background-image: url("../fonds/tifares.jpg");*/
+  
+ 
+   /*border: 2px solid black;*/
+}
