@@ -16,7 +16,7 @@ body
 color: black;
 background-color: black;
 Background: url(../fonds/tifares1024.jpg) fixed;
-background-size: contain;
+background-size: cover;
 background-position: center;
 
 
@@ -68,6 +68,7 @@ h1, h3, h2
 color: #9966FF;
 text-shadow: black 0em 0em 0.2em, 0em 0em 0.2em ;
 text-shadow: 2px 2px 2px black;
+margin-left: 10px;
 }
 
 
@@ -141,7 +142,10 @@ color: yellow;
     /* Pour éviter que les éléments du menu ne soient trop collés */
 
 }
+li{
+margin-top: 10px;
 
+}
 
 
 #corpsff7
