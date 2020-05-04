@@ -231,8 +231,8 @@ padding: 5px; /* Pour éviter que le texte à l'intérieur du corps ne colle tro
 .image
 {
 float: right;
+margin-right:30px;
 }
-
 
 
 #pied_de_page
